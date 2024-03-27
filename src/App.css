@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "montserrat";
+}
+
+.page1 {
+  height: 100%;
+  width: 100%;
+  /* position: fixed; */
+  color: #fff;
+}
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  padding: 0 150px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 45px;
+  position: absolute;
+  z-index: 99;
+}
+.bg-image {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  width: 100vw;
+}
+.navbar p {
+  font-size: 5vh;
+  font-weight: 900;
+}
+.navbar .price {
+  font-size: 4vh;
+  font-weight: 900;
+}
+.head1 {
+  display: flex;
+  flex-direction: column;
+}
+.img1 {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+}
+.head2 {
+  display: flex;
+  gap: 10px;
+}
+.button1 {
+  background-color: white;
+  height: 6vh;
+  text-align: center;
+  background-color: rgb(40, 38, 38);
+  border: rgb(198, 174, 128) solid 1px;
+  align-content: center;
+  width: 10vw;
+  color: rgb(198, 174, 128);
+}
+.button2 {
+  background-color: white;
+  height: 6vh;
+  text-align: center;
+  background-color: rgb(198, 174, 128);
+  border: rgb(198, 174, 128) solid 1px;
+  align-content: center;
+  width: 18vw;
+  color: rgb(40, 38, 38);
+}
+.footer {
+  /* height: 5px; */
+  width: 100%;
+  position: absolute;
+  padding-left: 24vh;
+  margin-top: 90vh;
+  display: flex;
+  font-size: 20px;
+  font-weight: 100;
+  gap: 25px;
+  z-index: 99;
+}
+.photo {
+  border-bottom: #fff solid 1px;
+}

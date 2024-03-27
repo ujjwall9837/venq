@@ -1,0 +1,76 @@
+.page2 {
+  height: 100vh;
+  width: 60vw;
+  /* color: white; */
+  background-color: transparent;
+}
+.form-page {
+  height: 100vh;
+  width: 60vw;
+  /* background-color: white; */
+  /* margin-left: 20vw; */
+}
+.form {
+  width: 30vw;
+  height: 100vh;
+  /* margin-left: 15vw; */
+  margin: 0 auto;
+
+}
+.form-heading {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 50px;
+  color: rgb(50, 50, 50);
+}
+.second-heading {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(50, 50, 50);
+
+  text-align: left;
+}
+h4 {
+  margin-top: 8px;
+  margin-bottom: 3vh;
+}
+.input-field {
+  margin-top: 3vh;
+  background-color: rgb(222, 219, 219);
+  width: 100%;
+  height: 10vh;
+  font-size: 30px;
+  text-align: start;
+  padding-left: 20px;
+  border: none;
+}
+.agree {
+  display: flex;
+  color: black;
+  gap: 3px;
+  margin-top: 4vh;
+}
+.agree p {
+  color: black;
+  font-weight: 600;
+}
+.img2 {
+  height: 15px;
+  width: 15px;
+  margin-left: 2px;
+}
+.button3 {
+  background-color: white;
+  height: 8vh;
+  text-align: center;
+  background-color: rgb(40, 38, 38);
+  border: rgb(198, 174, 128) solid 1px;
+  align-content: center;
+  width: 18vw;
+  margin-top: 20px;
+  margin-left: 19%;
+  color: rgb(198, 174, 128);
+}
+.icon {
+  color: black;
+}
